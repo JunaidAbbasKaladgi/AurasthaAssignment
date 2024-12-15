@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-gray-50">
+
+    <header class="bg-blue-600 text-white p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Company Name</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-200">About</a></li>
+                    <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+                    <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="relative bg-gray-200 h-96">
+        <img src="https://via.placeholder.com/1920x1080" alt="Hero Image" class="absolute inset-0 w-full h-full object-cover opacity-50">
+        <div class="relative z-10 max-w-6xl mx-auto h-full flex justify-center items-center text-center text-white">
+            <div>
+                <h2 class="text-4xl font-semibold">Welcome to Our Company</h2>
+                <p class="mt-4 text-xl">Providing the best services for your business growth.</p>
+                <a href="#services" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-xl hover:bg-blue-700">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-8">About Us</h3>
+            <p class="text-lg text-gray-700">We are a company dedicated to providing top-notch services and solutions to our clients. Our mission is to help businesses grow and succeed through innovative strategies and technology.</p>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-8">Our Services</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-2xl font-semibold mb-4">Consulting</h4>
+                    <p class="text-lg text-gray-700">We offer expert consulting services to help businesses grow and thrive.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-2xl font-semibold mb-4">Development</h4>
+                    <p class="text-lg text-gray-700">Our development team creates custom solutions tailored to your needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h4 class="text-2xl font-semibold mb-4">Marketing</h4>
+                    <p class="text-lg text-gray-700">We provide digital marketing services to boost your business online presence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-8">What Our Clients Say</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <p class="text-lg italic">"This company helped us grow exponentially. Highly recommended!"</p>
+                    <p class="mt-4 font-semibold">John Doe</p>
+                    <p class="text-gray-500">CEO, Example Corp</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <p class="text-lg italic">"The best service we've received. Very professional and dedicated."</p>
+                    <p class="mt-4 font-semibold">Jane Smith</p>
+                    <p class="text-gray-500">Marketing Director, Another Company</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <p class="text-lg italic">"A fantastic experience from start to finish. Their team is top-notch!"</p>
+                    <p class="mt-4 font-semibold">Mark Johnson</p>
+                    <p class="text-gray-500">Founder, Startup Inc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="py-16 bg-blue-600 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-4">Stay Updated!</h3>
+            <p class="text-xl mb-6">Subscribe to our newsletter for the latest updates.</p>
+            <form action="#" method="post" class="flex justify-center items-center">
+                <input type="email" name="email" placeholder="Enter your email" class="p-3 w-80 text-gray-700 rounded-l-lg">
+                <button type="submit" class="p-3 bg-white text-blue-600 rounded-r-lg hover:bg-gray-100">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-800 text-white py-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+            <p>Contact us: info@company.com | +1 234 567 890</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
